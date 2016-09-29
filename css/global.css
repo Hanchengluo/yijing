@@ -120,13 +120,12 @@ textarea
 
     resize: none;
     vertical-align: top;
-}input,
-select,
-textarea,
-body
-{
-    font: 12px 'Microsoft YaHei','微软雅黑',;
-}.clearfix:after
+}
+body {
+  font-size: 12px;
+  font-family: Arial, Helvetica Neue, Helvetica, 微软雅黑, 新細明體, Lucida Grande, sans-serif;
+}
+.clearfix:after
 {
     display: block;
     visibility: hidden;

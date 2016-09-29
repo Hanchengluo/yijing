@@ -1,0 +1,212 @@
+.header-bg{
+    background: #000;
+}
+#header{
+    width: 1200px;
+    margin: 0 auto;
+}
+#header .logo{
+    margin-top: 5px;
+}
+#header .nav{
+    width: 902px;
+}
+#header .nav .item{
+    position: relative;
+    float: left;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    list-style-type: none;
+}
+#header .nav .item.active,#header .nav .item:hover {
+    background:#666666;
+}
+#header .nav .item.active,#header .nav .item:hover .down-nav{
+    display: block;
+}
+#header .nav .item>a,#header .nav .item a{
+    color: #fff;
+    font-size: 18px;
+    display: block;
+    height: 100%;
+}
+#header .down-nav{
+    display: none;
+    position: absolute;
+    width: 180px;
+    top: 100px;
+    left: 0;
+    z-index: 9999;
+}
+#header .down-nav li{
+    height: 42px;
+    line-height: 42px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.2);
+    opacity: .20\0;
+    filter: alpha(opacity=20);
+}
+#header .down-nav li:hover{
+    background: rgba(0, 0, 0, 0.6);
+    opacity: .60\0;
+    filter: alpha(opacity=60);
+}
+#fooder{
+    width: 100%;
+    height: 74px;
+    background: #000;
+    z-index: 999;
+}
+#fooder .company-name{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+}
+#fooder .company-name p{
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+}
+#fooder .corporate-info{
+    padding-top: 20px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #fff;
+}
+#fooder .copyrigth{
+    font-size: 12px;
+    color: #888888;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+}
+/*关于颐景*/
+.top-banner{
+    width: 100%;
+    background: url(../images/top-banner.jpg) top center no-repeat;
+    height:230px;
+    overflow-x: hidden;
+}
+.column-box{
+    border-bottom: #ddd solid 1px;
+    margin-bottom: 14px;
+}
+.column-box .column-title{
+    padding: 13px 4px;
+    font-size: 18px;
+    color: #010101;
+    border-bottom: 2px solid #010101;
+    margin-top: 12px;
+    font-weight: 500;
+}
+.column-box .column-tab{
+    padding: 20px 0 0 0;
+}
+.column-box .column-tab li{
+    float: left;
+    margin-left: 8px;
+    background: #1b1b1b;
+    padding: 10px 14px;
+}
+.column-box .column-tab li a{
+    color: #fff;
+    font-size: 18px;
+}
+.column-box .column-tab li.active{
+    background: #434343 !important;
+}
+#abuot-article .active-title,#contact-page .active-title{
+    margin: 24px 0;
+}
+#abuot-article .active-title h2,#contact-page .active-title h2{
+    font-size: 36px;
+    color: #000;
+    font-family: '微软雅黑';
+    font-weight: 500;
+}
+#abuot-article .active-title p,#contact-page .active-title p{
+    font-size: 18px;
+}
+#abuot-article .active-info{
+    color: #0f0f0f;
+    font-size: 14px;
+    line-height: 150%;
+    margin-bottom: 40px;
+}
+
+/*案例页面*/
+#case-list {
+    width: 1225px;
+    padding-top: 26px;
+}
+#case-list li{
+    position: relative;
+    float: left;
+    width: 284px;
+    height: 328px;
+    overflow: hidden;
+    margin-bottom: 40px;
+    margin-right: 21px;
+}
+#case-list li:hover{
+-webkit-box-shadow: 0 5px 20px rgba(0,0,0,0.3) !important;
+    -moz-box-shadow: 0 5px 20px rgba(0,0,0,0.3) !important;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3) !important;
+}
+#case-list li img{
+    width: 100%;
+}
+#case-list .popup-box{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height:44px;
+    overflow: hidden;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    transition: height 0.5s linear;
+
+}
+#case-list li:hover .popup-box{
+    height: 138px;
+    transition: height 0.5s linear;
+}
+#case-list .popup-box .title{
+    padding: 10px;
+    background: #000;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+#case-list .popup-box .intro{
+    color: #fff;
+    padding: 7px;
+    height: 80px;
+    overflow: hidden;
+    font-size: 14px;
+}
+
+
+/*联系我们页面*/
+#contact-page .active-info{
+        border-bottom: dashed 1px #5a5a5a;
+        margin-bottom: 20px;
+}
+#contact-page .active-info h2{
+    font-size: 24px;
+    color: #484848;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+#contact-page .active-info p{
+    font-size: 16px;
+    color: #5a5a5a;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
