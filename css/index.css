@@ -35,20 +35,19 @@
     width: 180px;
     top: 100px;
     left: 0;
+    margin-top: -1px\9;
     z-index: 9999;
 }
 #header .down-nav li{
+    display: block;
     height: 42px;
     line-height: 42px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.2);
-    opacity: .20\0;
-    filter: alpha(opacity=20);
+    background: url(../images/down-nav-bg.png) repeat top left\9;
 }
 #header .down-nav li:hover{
     background: rgba(0, 0, 0, 0.6);
-    opacity: .60\0;
-    filter: alpha(opacity=60);
+    background: url(../images/down-nav-hover-bg.png) repeat top left\9;
 }
 /* slide-banner */
 .slide-banner
@@ -85,8 +84,7 @@
     top: 0;
     height: 100px;
     background: rgba(0, 0, 0, 0.6);
-    opacity: .60\0;
-    filter: alpha(opacity=60);
+    background: url(../images/down-nav-hover-bg.png) repeat top left;
     left: 0;
     width: 100%;
 }
@@ -159,6 +157,7 @@
     padding-top: 20px;
     color: #fff;
     font-size: 18px;
+    font-weight: 500;
 }
 #fooder .company-name p{
     color: #fff;

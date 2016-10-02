@@ -44,14 +44,12 @@
     height: 42px;
     line-height: 42px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.2);
-    opacity: .20\0;
-    filter: alpha(opacity=20);
+    background: rgba(0, 0, 0, 0.4);
+    background: url(../images/down-nav-bg.png) repeat top left\9;
 }
 #header .down-nav li:hover{
     background: rgba(0, 0, 0, 0.6);
-    opacity: .60\0;
-    filter: alpha(opacity=60);
+    background: url(../images/down-nav-hover-bg.png) repeat top left\9;
 }
 #fooder{
     width: 100%;
@@ -190,6 +188,7 @@
     overflow: hidden;
     z-index: 999;
     background-color: rgba(0, 0, 0, 0.8);
+    background: url(../images/popup-box-bg.png) center top repeat\9;
     color: #fff;
     transition: height 0.5s linear;
 
